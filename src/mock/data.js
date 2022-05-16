@@ -107,22 +107,26 @@ export const laData = {
   description: `Do not be overwhelmed by the size of the Los Angeles - focus on different sections of the city each day. Santa Monica will be your best bet if you want to wiggle your toes in the sand. Do not forget to visit Beverly Hills, West Hollywood, and Lacma Lights.`
 };
 
+// qianliwebsite
+const imageRoot = "/imgs"
+export const homepageImage = imageRoot + "/home/homepage.jpg"
+
 export const laImageData = [
   {
     image:
-      "/imgs/sliders/la/la1.jpeg",
+      imageRoot + "/sliders/la/la1.jpeg",
   },
   {
     image:
-      "/imgs/sliders/la/la2.jpeg",
+      imageRoot + "/sliders/la/la2.jpeg",
   },
   {
     image:
-      "/imgs/sliders/la/la3.jpeg",
+      imageRoot + "/sliders/la/la3.jpeg",
   },
   {
     image:
-      "/imgs/sliders/la/la4.jpeg",
+      imageRoot + "/sliders/la/la4.jpeg",
   }
 ];
 

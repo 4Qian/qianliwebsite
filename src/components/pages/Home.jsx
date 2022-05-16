@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../css/pages/Home.css';
 import { homeData } from '../../mock/data';
+import { homepageImage } from '../../mock/data';
 
 function Home({ setPage }) {
 
@@ -22,7 +23,7 @@ function Home({ setPage }) {
             </div>
             <img
                 className='hero-pic'
-                src="/imgs/home/homepage.jpg"
+                src={homepageImage}
                 alt="homepage" />
         </div>
     );
