@@ -1,0 +1,19 @@
+.contact-messages-box {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contact-message-details {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #272727;
+}
+
+@media (min-width: 650px) {
+    .contact-messages-box {
+        width: 70%;
+        margin: 1rem auto;
+    }
+}

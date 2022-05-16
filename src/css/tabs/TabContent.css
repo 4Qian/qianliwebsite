@@ -1,0 +1,19 @@
+/* container for tab content */
+.active-content {
+    padding: 1rem;
+    padding-top: 3.5rem;
+    min-height: 20rem;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.project-img-box {
+    text-align: center;
+}
+
+.project-img {
+    width: 40%;
+    min-width: 15rem;
+    max-height: 26rem;
+    margin: 1rem auto;
+}

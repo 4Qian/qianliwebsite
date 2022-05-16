@@ -1,0 +1,29 @@
+.tab-title {
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #272727;
+    outline: 2px ridge white;
+    background-color: #272727;
+
+    font-size: 1rem;
+    font-weight: 550;
+    color: white;
+    padding: 0.5rem;
+}
+
+.tab-title:hover {
+    color: #f3d9fd;
+}
+
+.tab-title-active {
+    padding: 0.5rem;
+    background-color: white;
+    border-bottom: 2px solid white;
+    border-top: 1px solid #272727;
+    border-left: 1px solid #272727;
+    border-right: 1px solid #272727;
+
+    font-size: 1rem;
+    font-weight: 550;
+    color: #272727;
+}

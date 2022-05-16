@@ -1,0 +1,67 @@
+.blog-box {
+    grid-area: main;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.blog-slogan {
+    font-family: Georgia;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.blog-content-container {
+    width: 90%;
+    margin: 4rem auto;
+    border-bottom: 1px ridge black;
+}
+
+.blog-subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.blog-description {
+    font-size: .85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-btn {
+    border: none;
+    background-color: #272727;
+    color: #fff;
+    border: 1px ridge white;
+
+    font-size: .85rem;
+    padding: .5rem;
+    margin: 1rem auto;
+}
+
+
+@media (min-width: 650px) {
+    .blog-box {
+        margin-top: 2rem;
+    }
+
+    .blog-btn {
+        border: none;
+        background-color: #272727;
+        color: #fff;
+        border: 1px ridge white;
+
+        font-size: 1rem;
+        padding: .5rem;
+        margin: 1rem auto;
+    }
+
+    .blog-description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .blog-subtitle {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}

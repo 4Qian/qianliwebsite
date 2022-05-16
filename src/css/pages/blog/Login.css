@@ -1,0 +1,90 @@
+/* ---- smaller than 650px ---- */
+.login-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+    margin-top: 2rem;
+}
+
+.login-content-box {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.login-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.login-text {
+    margin-top: 1rem;
+}
+
+.login-text::after {
+    content: "*";
+    color: #000000;
+}
+
+.login-input {
+    margin: 0 auto;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+
+.login-sub {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    background-color: #272727;
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    height: auto;
+}
+
+/* from  https://css.gg/spinner, MIT license: https://css.gg/doc/licence */
+.gg-spinner {
+    transform: scale(var(--ggs, 1));
+    --ggs: 0.5;
+}
+
+.gg-spinner,
+.gg-spinner::after,
+.gg-spinner::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10% auto;
+}
+
+.gg-spinner::after,
+.gg-spinner::before {
+    content: "";
+    position: absolute;
+    border-radius: 100px
+}
+
+.gg-spinner::before {
+    animation: spinner 1s cubic-bezier(.6, 0, .4, 1) infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor
+}
+
+.gg-spinner::after {
+    border: 3px solid;
+    opacity: .2
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}

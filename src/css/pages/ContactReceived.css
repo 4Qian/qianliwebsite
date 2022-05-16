@@ -1,0 +1,67 @@
+.feedback-received-box {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-area: main;
+    background-color: white;
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-contact-box {
+    margin-top: -2rem;
+}
+
+.back-to-contact-btn {
+    background-color: #272727;
+    color: white;
+    border: 1px ridge black;
+    padding: .5rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+}
+
+.received-container {
+    padding-left: 0.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.received-user-info-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.received-user-info-hi {
+    margin-right: 0.5rem;
+}
+
+.received-user-info {
+    padding-left: 0;
+    font-family: Georgia;
+    color: plum;
+}
+
+.received-message {
+    font-size: 1rem;
+    color: plum;
+}
+
+@media (min-width: 650px) {
+    .feedback-received-box {
+        margin: 1rem;
+    }
+
+    .back-to-contact-box {
+        margin-top: -8rem;
+        margin-bottom: 5rem;
+    }
+
+    .received-container {
+        text-align: left;
+        width: 80%;
+        margin: 0rem auto;
+    }
+}

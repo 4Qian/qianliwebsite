@@ -1,0 +1,16 @@
+/* container for whole tabs */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+/* container for all title buttons */
+.tabs-title-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+}

@@ -1,0 +1,176 @@
+/* ---- smaller than 650px screen ---- */
+.nav-box {
+    grid-area: header;
+    background-color: white;
+    min-height: 6rem;
+}
+
+.nav-menu-close {
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+}
+
+.nav-menu-open {
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+}
+
+.skip-link {
+    border: 1px solid black;
+    background-color: opacity;
+    width: fit-content;
+
+    color: #272727;
+    font-weight: 700;
+    left: 2%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.skip-link:focus {
+    transform: translateY(0%);
+}
+
+.skip-link {
+    transition: transform 0.3s;
+}
+
+.hamburger {
+    width: 3rem;
+    height: 3rem;
+    padding-bottom: 3.8rem;
+
+    font-size: 3rem;
+    border: none;
+    background-color: white;
+
+    z-index: 12;
+    transition: margin .4s linear;
+    margin-right: 0rem;
+    margin-top: 1.5rem;
+    grid-column: 12 / 13;
+}
+
+.closeBtn {
+    grid-column: 12 / 13;
+
+    font-size: 2rem;
+    padding: -2rem;
+    border: none;
+    background-color: white;
+}
+
+/* ----- menu box-----*/
+.open-menu-box {
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    animation: fadein 1.5s;
+    margin-right: 1rem;
+}
+
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.larger-screen-menu-box {
+    display: none;
+}
+
+.menu-box {
+    grid-column: span 12;
+    list-style: none;
+}
+
+.menu-item-box {
+    text-align: right;
+}
+
+.menu-item-btn {
+    border: none;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: .8rem;
+}
+
+.menu-item-btn:hover {
+    color: white;
+    background-color: plum;
+    font-weight: bold;
+}
+
+.loggedin-status {
+    margin-left: 1rem;
+    padding: 0.3rem;
+    text-align: left;
+    border: 1px solid #272727;
+    border-radius: 1rem;
+
+    font-weight: 500;
+    color: #272727;
+    background-color: white;
+    width: fit-content;
+}
+
+/* -------- larger than 650px screen ------- */
+@media (min-width: 650px) {
+    .hamburger {
+        display: none;
+    }
+
+    .closeBtn {
+        display: none;
+    }
+
+    .loggedin-status {
+        font-weight: 500;
+        width: fit-content;
+        grid-column: 12 / 13;
+        color: #272727;
+        background-color: white;
+    }
+
+    .menu-box {
+        display: none;
+    }
+
+    .nav-menu-open {
+        min-height: 6rem;
+    }
+
+    .nav-menu-close {
+        min-height: 6rem;
+        display: grid;
+        grid-template-columns: repeat(12 1fr);
+    }
+
+    .larger-screen-menu-box {
+        grid-column: span 12;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0rem auto;
+    }
+
+    .larger-screen-menu-item-btn {
+        border: none;
+        background-color: white;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 530;
+        font-family: Georgia;
+        margin: 1.5rem .6rem 0rem 0.6rem;
+    }
+
+    .larger-screen-menu-item-btn:hover {
+        background-color: #f3d9fd;
+        text-decoration: 5px underline black;
+    }
+}

@@ -1,0 +1,28 @@
+.projects-box {
+    background-color: #f3d9fd;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 3rem;
+    grid-area: main;
+}
+
+.projects-title {
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    font-family: Georgia;
+}
+
+@media (min-width: 650px) {
+    .projects-box {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .projects-title {
+        width: 100%;
+        margin: .5rem auto;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+    }
+}
