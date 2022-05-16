@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/qianliwebsite/precache-manifest.974f02bd75b90b4a0abb5d35c7f8b165.js"
+  "/qianliwebsite/precache-manifest.56e7cc7f5dc9f2d7a2bd653831d7290b.js"
 );
 
 workbox.clientsClaim();
