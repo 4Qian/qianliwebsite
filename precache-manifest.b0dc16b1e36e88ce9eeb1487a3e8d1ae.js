@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e17ccf8e908b06d597ef",
-    "url": "/qianliwebsite/static/css/main.866bf10e.chunk.css"
+    "revision": "0e56c260c44844f322d5",
+    "url": "/qianliwebsite/static/css/main.544bd589.chunk.css"
   },
   {
-    "revision": "e17ccf8e908b06d597ef",
-    "url": "/qianliwebsite/static/js/main.e17ccf8e.chunk.js"
+    "revision": "0e56c260c44844f322d5",
+    "url": "/qianliwebsite/static/js/main.0e56c260.chunk.js"
   },
   {
     "revision": "517527aa6758397229f0",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/qianliwebsite/static/js/runtime~main.65948947.js"
   },
   {
-    "revision": "40eb5cd4c01c33883fa35873c242c198",
+    "revision": "9256729a7d08194534447f5973eb5c66",
     "url": "/qianliwebsite/index.html"
   }
 ];
