@@ -23,8 +23,8 @@ export const aboutMeData = {
 
 export const skillsetsData = {
   'Programming Languages': `Java, Python, JavaScript, HTML/CSS, SQL`,
-  'Web Technologies': `Spring Boot, MyBatis, Socket Programming, Bootstrap, Vue.js, Apache Shiro, React, Protocol Buffers`,
-  'Platforms & Tools': `Linux, Git, AWS, MySQL, MongoDB, Netty`,
+  'Web Technologies': `Spring Boot, MyBatis, Socket Programming, Bootstrap, Vue.js, Apache Shiro, React, Protocol Buffers, Elastic Search`,
+  'Platforms & Tools': `Linux, Git, AWS, MySQL, MongoDB, Netty, Redis, RabbitMQ, JSON Schema`,
 }
 
 export const coursesData = {
@@ -34,6 +34,9 @@ export const coursesData = {
   info5001: `Application Modeling and Design`,
   info5100: `Application Engineer & Development`,
   info7245: `Agile Software Development`,
+  info6215: `Business Analysis and Information Engineering`,
+  info6250: 'Web Development Tools and Methods',
+  info6210: 'Data Management and Database Design'
 }
 
 // uncomment this line and comment the next line when deploying to github pages using command "npm run deploy"
@@ -45,14 +48,16 @@ export const projectsData = [
     title: 'project1',
     description: `Info Management System:
   This is a web application for university administrators to manage students' information.
-  The RESTful APIs of it enable querying and updating student information on profile, grades,class enrollment, and reviews on teachers.`,
+  The RESTful APIs of it enable querying and updating student information on profile, grades,class enrollment, and reviews on teachers.
+  Using Apache Shiro framework ensured application security, user authentication, and session management.
+  `,
     image: imageRoot + "/projects/info management.jpeg"
   },
   {
     title: 'project2',
-    description: `Vaccine Passport App:
-    This is web application for managing vaccination activities from end to end.
-    It has a vaccine inventory management service for administrators to control and distribute vaccines to clinics.
+    description: `Vaccine Passport Application:
+    This is web application for managing vaccination activities for clinics and patients.
+    It has a vaccine inventory management service for administrators to control and distribute vaccines to clinics, and achieved 100% security for the creation and verification of vaccine passports by leveraging digital signature technique.
     `,
     image: imageRoot + "/projects/vaccine.jpeg"
   },

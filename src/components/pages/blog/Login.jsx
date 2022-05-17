@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchLogin } from '../../../fake-services/fake-services';
-import '../../../css/pages/blog/Login.css'
+import '../../../css/pages/blog/Login.css';
 
 function Login({ setLoggedInUser, loggedInUser }) {
     const [data, setData] = useState({
@@ -54,6 +54,7 @@ function Login({ setLoggedInUser, loggedInUser }) {
                         value={username}
                         required={true}
                         onChange={changeHandler} />
+                    <small className='hint'>Try "guest" to see some of my blogs.</small>
                     <input
                         className='login-sub'
                         type="submit"
